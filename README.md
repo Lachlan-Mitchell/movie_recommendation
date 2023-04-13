@@ -4,8 +4,7 @@
 
 ## Requirements / Purpose
 
--   MVP
--   purpose of project: I wanted to improve my skills with Python and Jupyter Notebook. This project allowed me to use a variety of libraries such as numpy, pandas, and sklearn, and then recommends movies using cosine similarity. 
+-   Purpose of project: I wanted to improve my skills with Python and Jupyter Notebook. This project allowed me to use a variety of libraries such as numpy, pandas, and sklearn, and then recommends movies using cosine similarity. 
 I wanted to explore data cleaning, and how recommendation systems work. This project was an amazing experiance and was some of the most fun ive had problem solving.
 
 ---
@@ -18,7 +17,7 @@ I wanted to explore data cleaning, and how recommendation systems work. This pro
 
 ## Design Goals / Approach
 
-    I implemented a simple recommendation system on a smaller dataset (4000) so I could see how different factors influenced the outcome, for example  
+  - I implemented a simple recommendation system on a smaller dataset (4000) so I could see how different factors influenced the outcome, for example  
 
 ---
 
