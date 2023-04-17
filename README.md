@@ -6,7 +6,7 @@
 ## Requirements / Purpose
 
 - Purpose of project: I wanted to improve my skills with Python and Jupyter Notebook. This project allowed me to use a variety of libraries such as numpy, pandas, and sklearn, and then recommends movies using cosine similarity.
-  I wanted to explore data cleaning, and how recommendation systems work. This project was an amazing experiance and was some of the most fun ive had problem solving.
+  I wanted to explore data cleaning, and how recommendation systems work. This project was an amazing experience and was some of the most fun ive had problem solving.
 
 ---
 
@@ -15,6 +15,8 @@
 - Run the whole notebook
 - Use the function callback of recommend('MOVIE_TITLE') where 'MOVIE_TITLE' is the title of the movie you have watched recently.
 - Use genre_recommendation to look at collaborative choice of best movie, within the given genres
+- Use exact_column_recommendation when you know the exact column data you want to get recommendations on, for example crew for the best movies by that director or cast where you can look at the lead 3 roles and check what movies they have done best.
+- Use partial_column_recommendation when you know some of the cast or just a cast duo.
 
 ---
 
@@ -29,6 +31,7 @@
 - Takes in a movie that a user has watched and returns a list of recommended movies.
 - If the movie submitted by the user is not found in the df then a message is printed to prompt them to try another movie.
 - Can also receive recommendations based on genres inputted
+- Can also receive recommendations based on any data frame column
 
 ---
 
@@ -55,6 +58,10 @@
 ### 14/04/2023
 
 - Added a genre recommendation system which takes in a list of genres and will filter the data frame for movies with those genres and sort them by highest collaborative average rating
+
+### 17/04/2023
+
+- Added a general column recommendation system, allowing the user to get recommendations by passing in a list with a values pertaining to a particular column, for example using cast and putting in actors names, will output the best movies by average rating containing those actors.
 
 ## What did you struggle with?
 
